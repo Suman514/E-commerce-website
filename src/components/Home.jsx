@@ -90,76 +90,76 @@ const Home = () => {
         <>
          
 
-            <section className="categories mt-4">
-            <div className="container-fluid">
-                <div className="row">
-                    {/* Large Category */}
-                    <div className="col-lg-6 p-0">
-                        <div className="position-relative">
-                            <img src={categoryImg} alt="Women's Fashion" className="img-fluid w-100" />
-                            <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
-                                <h1>Women’s Fashion</h1>
-                                <p>Sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <a href="#" className="btn btn-danger">Shop Now</a>
-                            </div>
-                        </div>
-                    </div>
+         <section className="categories mt-4">
+  <div className="container-fluid">
+    <div className="row">
+      {/* Large Category */}
+      <div className="col-lg-6 p-0">
+        <div className="d-flex flex-column justify-content-center align-items-center text-center text-white overlay">
+          <img src={categoryImg} alt="Women's Fashion" className="img-fluid w-100" />
+          <div className="overlay-content">
+            <h1>Women’s Fashion</h1>
+            <p>Sitamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" className="btn btn-danger">Shop Now</a>
+          </div>
+        </div>
+      </div>
 
-                    {/* Small Categories */}
-                    <div className="col-lg-6">
-                        <div className="row">
-                            {/* Men's Fashion */}
-                            <div className="col-lg-6 col-md-6 col-sm-6 p-0">
-                                <div className="position-relative">
-                                    <img src={categoryImg1} alt="Men’s Fashion" className="img-fluid w-100" />
-                                    <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
-                                        <h4>Men’s Fashion</h4>
-                                        <p>358 items</p>
-                                        <a href="#" className="btn btn-danger btn-sm">Shop Now</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* Kid's Fashion */}
-                            <div className="col-lg-6 col-md-6 col-sm-6 p-0">
-                                <div className="position-relative">
-                                    <img src={categoryImg2} alt="Kid’s Fashion" className="img-fluid w-100" />
-                                    <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
-                                        <h4>Kid’s Fashion</h4>
-                                        <p>273 items</p>
-                                        <a href="#" className="btn btn-danger btn-sm">Shop Now</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* Cosmetics */}
-                            <div className="col-lg-6 col-md-6 col-sm-6 p-0">
-                                <div className="position-relative">
-                                    <img src={categoryImg3} alt="Cosmetics" className="img-fluid w-100" />
-                                    <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
-                                        <h4>Cosmetics</h4>
-                                        <p>159 items</p>
-                                        <a href="#" className="btn btn-danger btn-sm">Shop Now</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* Accessories */}
-                            <div className="col-lg-6 col-md-6 col-sm-6 p-0">
-                                <div className="position-relative">
-                                    <img src={categoryImg4} alt="Accessories" className="img-fluid w-100" />
-                                    <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
-                                        <h4>Accessories</h4>
-                                        <p>792 items</p>
-                                        <a href="#" className="btn btn-danger btn-sm">Shop Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
+      {/* Small Categories */}
+      <div className="col-lg-6">
+        <div className="row">
+          {/* Men's Fashion */}
+          <div className="col-lg-6 col-md-6 col-sm-6 p-0">
+            <div className="d-flex flex-column justify-content-center align-items-center text-center text-white overlay">
+              <img src={categoryImg1} alt="Men’s Fashion" className="img-fluid w-100" />
+              <div className="overlay-content">
+                <h4>Men’s Fashion</h4>
+                <p>358 items</p>
+                <a href="#" className="btn btn-danger btn-sm">Shop Now</a>
+              </div>
             </div>
-        </section>
+          </div>
+
+          {/* Kid's Fashion */}
+          <div className="col-lg-6 col-md-6 col-sm-6 p-0">
+            <div className="d-flex flex-column justify-content-center align-items-center text-center text-white overlay">
+              <img src={categoryImg2} alt="Kid’s Fashion" className="img-fluid w-100" />
+              <div className="overlay-content">
+                <h4>Kid’s Fashion</h4>
+                <p>273 items</p>
+                <a href="#" className="btn btn-danger btn-sm">Shop Now</a>
+              </div>
+            </div>
+          </div>
+
+          {/* Cosmetics */}
+          <div className="col-lg-6 col-md-6 col-sm-6 p-0">
+            <div className="d-flex flex-column justify-content-center align-items-center text-center text-white overlay">
+              <img src={categoryImg3} alt="Cosmetics" className="img-fluid w-100" />
+              <div className="overlay-content">
+                <h4>Cosmetics</h4>
+                <p>159 items</p>
+                <a href="#" className="btn btn-danger btn-sm">Shop Now</a>
+              </div>
+            </div>
+          </div>
+
+          {/* Accessories */}
+          <div className="col-lg-6 col-md-6 col-sm-6 p-0">
+            <div className="d-flex flex-column justify-content-center align-items-center text-center text-white overlay">
+              <img src={categoryImg4} alt="Accessories" className="img-fluid w-100" />
+              <div className="overlay-content">
+                <h4>Accessories</h4>
+                <p>792 items</p>
+                <a href="#" className="btn btn-danger btn-sm">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
         <section className="product spad">
       <div className="container">
